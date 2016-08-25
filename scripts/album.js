@@ -13,7 +13,7 @@ var setSong = function(songNumber) {
     setVolume(currentVolume);
 };
 
-var seek = function(time) {
+var seek = function(time) {   
     if (currentSoundFile) {
         currentSoundFile.setTime(time);
     }
